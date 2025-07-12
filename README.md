@@ -22,16 +22,7 @@
 ├── t10k-images.idx3-ubyte        # Raw test images
 ├── t10k-labels.idx1-ubyte        # Raw test labels
 ├── model_1.h5 to model_5.h5      # Saved CNN models
-└── ensemble_cnn_mnist.py         # Main Python script
-</code></pre>
-
-<h2>🚀 How to Run</h2>
-<ol>
-  <li>Download the MNIST dataset from <a href="http://yann.lecun.com/exdb/mnist/">Yann LeCun's website</a>.</li>
-  <li>Place the IDX files in the same directory as the script.</li>
-  <li>Run the script with Python:</li>
-</ol>
-<pre><code>python ensemble_cnn_mnist.py
+└── main.ipynb                    # Interactive notebook for running and evaluating the Ensemble CNN on MNIST
 </code></pre>
 
 <h2>📊 Sample Training Logs</h2>
